@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.amazonaws.services.dynamodbv2.springboot.autoconfigure.DynamoDBRepositoriesAutoConfiguration

@@ -1,0 +1,10 @@
+{
+  "properties": [
+    {
+      "name": "spring.data.dynamodb.repositories.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable DynamoDB repositories.",
+      "defaultValue": true
+    }
+  ]
+}
