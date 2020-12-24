@@ -11,9 +11,23 @@
 	<groupId>com.github.elvisnovoa</groupId>
 	<artifactId>dynamodb-spring-boot-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>dynamodb-spring-boot-parent</name>
+	<name>${project.groupId}:${project.artifactId}</name>
 	<packaging>pom</packaging>
 	<description>Spring Boot starter project for spring-data-dynamodb</description>
+	<url>https://github.com/elvisnovoa/dynamodb-spring-boot</url>
+
+	<licenses>
+		<license>
+			<name>The Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+
+	<scm>
+		<connection>https://github.com/elvisnovoa/dynamodb-spring-boot.git</connection>
+		<developerConnection>https://github.com/elvisnovoa/dynamodb-spring-boot.git</developerConnection>
+		<url>https://github.com/elvisnovoa/dynamodb-spring-boot</url>
+	</scm>
 
 	<properties>
 		<java.version>1.8</java.version>
